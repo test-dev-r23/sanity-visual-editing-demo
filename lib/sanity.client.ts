@@ -1,3 +1,4 @@
+import { createClient } from '@sanity/preview-kit/client'
 import {
   apiVersion,
   basePath,
@@ -14,7 +15,6 @@ import {
   projectPaths,
   settingsQuery,
 } from 'lib/sanity.queries'
-import { createClient } from 'next-sanity'
 import type {
   HomePagePayload,
   PagePayload,
